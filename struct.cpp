@@ -33,4 +33,11 @@ int main()
     cout << "data keempat = "  << datamu[3]  <<endl;
     cout << "data keliama = "  << datamu[4]  <<endl;
  
-   
+    //mengisi data melalui pengulangan
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "isikan data ke-" << (i+1) << " : ";
+        cin >> datamu [1];
+    }
+
+    
