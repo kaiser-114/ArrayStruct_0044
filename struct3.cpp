@@ -34,4 +34,23 @@ int main()
     cout << "desa : "  <<mhs.alamat.desa << endl;
     cout << "kota : "  <<mhs.alamat.kota << endl;
     cout << "usia : "  <<mhs.umur << endl;
+}int main()
+{
+    // deklarasi variabel struct
+    mahasiswa mhs;
+    //mengisi data
+    cout << "isikan data nama : ";
+    getline (cin, mhs.nama );
+    cout << "Isikan data desa : ";
+    getline (cin, mhs.alamat.desa );
+    cout << "Isikan data kota : ";
+    getline (cin, mhs.alamat.kota );
+    cout << "Isikan data usia : ";
+    cin >> mhs.umur;
+
+    cout << "data mahasiswa "  << endl;
+    cout << "nama : "  <<mhs.nama << endl;
+    cout << "desa : "  <<mhs.alamat.desa << endl;
+    cout << "kota : "  <<mhs.alamat.kota << endl;
+    cout << "usia : "  <<mhs.umur << endl;
 }
