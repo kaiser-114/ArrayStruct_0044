@@ -40,4 +40,9 @@ int main()
         cin >> datamu [1];
     }
 
-    
+    //menampilkan data dengan pengulangan
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "data ke-" << ( i + 1) << " : "  << datamu[i] <<endl;
+    }
+}
